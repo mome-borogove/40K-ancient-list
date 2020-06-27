@@ -19,7 +19,10 @@ def parse_ancients(file):
   for ancient in ancients:
     if str.lower(ancient.tag) in amap:
       print('AARGH!',ancient.tag)
-    amap[str.lower(ancient.tag)] = ancient.find('eng').text
+    adjective = ancient.find('eng').text
+    if adjective is None:
+      adjective = '[No adjective]'
+    amap[str.lower(ancient.tag)] = adjective
   return amap
 
 _S = Enum('_S','TOP ITEM_START ITEM INNER')
@@ -129,7 +132,7 @@ if __name__=='__main__':
 
   item_map = {str.lower(k):v for k,v in item_map.items()}
 
-  for ancient,adjective in sorted(ancient_map.items(),key=lambda x:x[0]):
+  for ancient,adjective in sorted(ancient_map.items(),key=lambda x:x[1]):
     item = item_map[ancient]
     #print(ancient,item)
     if SHOW_ALL:
@@ -144,8 +147,6 @@ if __name__=='__main__':
     s = re.sub(r'\[/[0-9A-Fa-f]{8}\]',r'',s)
     # substitute value
     s = format(s, prop, val)
-    if adjective is None:
-      adjective = '[No adjective]'
     if SHOW_ALL:
       print(' - **'+str(adjective)+'**: "'+s+'"\\\nItem types: '+str(item_types))
     else:
