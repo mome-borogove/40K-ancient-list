@@ -106,6 +106,7 @@ if __name__=='__main__':
     _, enchants = parse_enchants(f)
     #print(str(len(enchants)),'enchants mapped')
   enchant_map = {str.lower(e.name):(e.desc,e.desc_repl,e.range[1]) for e in enchants}
+  #print(enchant_map)
   
   with open('inventoryitems.cfg') as f:
     items = parse_inventory(f)
