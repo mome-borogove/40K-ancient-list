@@ -137,7 +137,7 @@ if __name__=='__main__':
     item = item_map[ancient]
     #print(ancient,item)
     if SHOW_ALL:
-      item_types = ', '.join(list(set(item['Type'])))
+      item_types = ', '.join(sorted(list(set(item['Type']))))
     else:
       item_type = item['Type']
     enchant = str.lower(item['FixEnchants'].split(';')[0])
