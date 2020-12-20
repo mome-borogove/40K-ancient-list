@@ -9,9 +9,9 @@ Item types: belt_forcefield, belt_grenade
 Item types: eye_implant
  - **Ambush**: "200.0% Damage Bonus for the First Attack in Surprise State"\
 Item types: arc_blade, arc_sword, assassin_power_sword, carthean_sword, death_cult_blade, null_rod
- - **Ambush**: "+5% Critical Hit Chance and +10 Critical Hit Strength in Surprise State"\
+ - **Ambush**: "+5% Supreme Critical Hit Chance and +10 Critical Hit Strength in Surprise State"\
 Item types: eye_implant
- - **Ambush**: "+5% Critical Hit Chance and +10 Critical Hit Strength in Surprise State"\
+ - **Ambush**: "+5% Supreme Critical Hit Chance and +10 Critical Hit Strength in Surprise State"\
 Item types: exitus_rifle, longlas_rifle, needler_sniper_rifle, sniper_rifle
  - **Anguish**: "3.0 seconds to Slow, Shock effect duration"\
 Item types: power_armor, psyker_armor, synskin_armor, techadept_armour
@@ -221,7 +221,7 @@ Item types: techadept_armour
 Item types: power_armor, psyker_armor, synskin_armor, techadept_armour
  - **Valor**: "25.0% Damage Bonus when Surrounded"\
 Item types: inoculator
- - **Valor**: "12.0% Damage Reduction when Surrounded (can exceed cap)"\
+ - **Valor**: "12.0% Supreme Damage Reduction when Surrounded"\
 Item types: purity_seal
  - **Valor**: "25.0% Damage Bonus when Surrounded"\
 Item types: arc_blade, arc_sword, assassin_power_sword, carthean_sword, chainsword, death_cult_blade, eviscerator, force_sword, force_sword_2, force_sword_3, greataxe, greatsword, null_rod, omnissian_axe, power_axe, power_hammer, power_sword, thunder_hammer, voltaic_axe
@@ -233,11 +233,11 @@ Item types: signum
 Item types: omnissian_axe
  - **Wrath**: "20.0% chance to get an Enraged token on Hit Taken"\
 Item types: power_armor, synskin_armor
- - **Wrath**: "4.0 to the maximum of Enraged tokens"\
+ - **Wrath**: "10.0 to the maximum of Enraged tokens"\
 Item types: main_implant
  - **Wrath**: "When in Enraged state enemies within 5 meters are Feared"\
 Item types: purity_seal
- - **Wrath**: "10.0% to Damage Bonus per Enraged token, attacks remove 1 additional Enraged token"\
+ - **Wrath**: "14.0% to Damage Bonus per Enraged token, attacks remove 1 additional Enraged token"\
 Item types: arc_sword, carthean_sword, greataxe, thunder_hammer
  - **the Legion**: "30.0 Construct HP gained on Hit"\
 Item types: radium_carbine
