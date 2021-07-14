@@ -21,9 +21,9 @@ Item types: inoculator
 Item types: purity_seal
  - **Anguish**: "40.0% Suppression Damage Bonus against Slowed, Shocked enemies"\
 Item types: arc_blade, arc_rifle, arc_sword, assassin_power_sword, autogun, autopistol, bolt_pistol, boltgun, carthean_sword, chainsword, death_cult_blade, eviscerator, exitus_rifle, force_rod, force_rod_2, force_rod_3, force_staff, force_staff_2, force_staff_3, grav_gun, grav_pistol, greataxe, greatsword, grenade_launcher, heavy_bolter, heavy_flamer, inferno_pistol, lasgun, laspistol, longlas_rifle, melta_gun, multi_melta, needler_sniper_rifle, null_rod, plasma_cannon, plasma_gun, plasma_pistol, power_axe, power_hammer, power_sword, radium_carbine, shotgun, sniper_rifle, thunder_hammer
- - **Ascendancy**: "12.0 Damage Reduction when Suppression Status is Protected."\
+ - **Ascendancy**: "12.0% Damage Reduction when Suppression Status is Protected."\
 Item types: power_armor, psyker_armor, synskin_armor, techadept_armour
- - **Ascendancy**: "12.0 Damage Reduction when Suppression Status is Protected."\
+ - **Ascendancy**: "12.0% Damage Reduction when Suppression Status is Protected."\
 Item types: belt, belt_forcefield, belt_psyker
  - **Ascendancy**: "16.0% Movement Speed when Suppression Status is Protected."\
 Item types: purity_seal
@@ -65,6 +65,8 @@ Item types: inoculator
 Item types: main_implant
  - **Butchering**: "50.0% Damage Bonus when the Execution effect is active"\
 Item types: arc_blade, arc_sword, assassin_power_sword, carthean_sword, chainsword, death_cult_blade, eviscerator, greataxe, greatsword, null_rod, power_axe, power_hammer, power_sword, thunder_hammer
+ - **Calculation**: "60.0 Shield Charge gained for every point of {resource} spent"\
+Item types: belt_techadept
  - **Calm**: "-2 Warp Heat/second"\
 Item types: psyker_armor
  - **Calm**: "+2 to Warp Heat Decrease/hit values of all Psyker Weapon Skills"\
@@ -73,7 +75,7 @@ Item types: purity_seal
 Item types: signum
  - **Calm**: "+2 to Warp Heat Decrease/hit values of all Psyker Weapon Skills"\
 Item types: force_rod, force_rod_2, force_rod_3, force_staff, force_staff_2, force_staff_3, force_sword, force_sword_2, force_sword_3
- - **Combustion**: "0.05 Damage Bonus for every nearby Construct"\
+ - **Combustion**: "0.15 Damage Bonus for every nearby Construct"\
 Item types: arc_rifle, omnissian_axe, radium_carbine, voltaic_axe
  - **Concentration**: "Enter Focused state when HP is over 90.0%"\
 Item types: power_armor, psyker_armor, synskin_armor, techadept_armour
@@ -107,7 +109,7 @@ Item types: signum
 Item types: arc_blade, arc_rifle, arc_sword, assassin_power_sword, autogun, autopistol, bolt_pistol, boltgun, carthean_sword, chainsword, death_cult_blade, eviscerator, exitus_rifle, force_rod, force_rod_2, force_rod_3, force_staff, force_staff_2, force_staff_3, force_sword, force_sword_2, force_sword_3, grav_gun, grav_pistol, greataxe, greatsword, grenade_launcher, heavy_bolter, heavy_flamer, inferno_pistol, lasgun, laspistol, longlas_rifle, melta_gun, multi_melta, needler_sniper_rifle, null_rod, omnissian_axe, plasma_cannon, plasma_gun, plasma_pistol, power_axe, power_hammer, power_sword, radium_carbine, shotgun, sniper_rifle, thunder_hammer, voltaic_axe
  - **Endurance**: "2% HP and Suppression gained per point of Focus spent"\
 Item types: power_armor
- - **Endurance**: "12.0 Damage Reduction when Suppression Status is Protected."\
+ - **Endurance**: "12.0% Damage Reduction when Suppression Status is Protected."\
 Item types: main_implant
  - **Endurance**: "HP Regeneration increased by the % of Missing HP"\
 Item types: purity_seal
@@ -117,11 +119,11 @@ Item types: chainsword, eviscerator, greataxe, greatsword, power_axe, power_hamm
 Item types: radium_carbine
  - **Hysteria**: "Damage Bonus equal to 0.33% of current Warp Heat"\
 Item types: psyker_armor
- - **Hysteria**: "+1% Chance for every 5 points of Current Warp Heat for enemies to explode on Kill dealing 100% of the Killing Blow's damage"\
+ - **Hysteria**: "+1% Chance for every 10 points of Current Warp Heat for enemies to explode on Kill dealing 100% of the Killing Blow's damage"\
 Item types: belt_psyker
  - **Hysteria**: "+1% Chance for every 3 points of Current Warp Heat to Reflect incoming damage to attacker"\
 Item types: purity_seal
- - **Hysteria**: "+1% Chance for every 10 points of current Warp Heat to turn incoming damage to healing"\
+ - **Hysteria**: "+1% Chance for every 20 points of current Warp Heat to turn incoming damage to healing"\
 Item types: force_rod, force_rod_2, force_rod_3, force_staff, force_staff_2, force_staff_3, force_sword, force_sword_2, force_sword_3
  - **Insanity**: "In Berserk state all resistances are equal to the highest resistance"\
 Item types: power_armor, psyker_armor, synskin_armor
@@ -131,6 +133,8 @@ Item types: eye_implant
 Item types: signum
  - **Insanity**: "3.0 Berserk tokens on losing at least 10% HP in 1 second"\
 Item types: arc_blade, arc_rifle, arc_sword, assassin_power_sword, autogun, autopistol, bolt_pistol, boltgun, carthean_sword, chainsword, death_cult_blade, eviscerator, exitus_rifle, force_rod, force_rod_2, force_rod_3, force_staff, force_staff_2, force_staff_3, force_sword, force_sword_2, force_sword_3, grav_gun, grav_pistol, greataxe, greatsword, grenade_launcher, heavy_bolter, heavy_flamer, inferno_pistol, lasgun, laspistol, longlas_rifle, melta_gun, multi_melta, needler_sniper_rifle, null_rod, omnissian_axe, plasma_cannon, plasma_gun, plasma_pistol, power_axe, power_hammer, power_sword, radium_carbine, shotgun, sniper_rifle, thunder_hammer, voltaic_axe
+ - **Judgement**: "Enemies explode on Kill dealing 100.0% of Base Damage as Physical in a 4 metres radius, applying Physical Vulnerability "\
+Item types: shotgun
  - **Leadership**: "-15.0% reduced Data-flux Reserve"\
 Item types: voltaic_axe
  - **Leadership**: "30.0% Damage Bonus to Constructs summoned from the Armour slot"\
@@ -195,6 +199,10 @@ Item types: eye_implant
 Item types: signum
  - **Stride**: "8.0% HP gained on Critical Hit"\
 Item types: arc_blade, arc_rifle, arc_sword, assassin_power_sword, autogun, autopistol, bolt_pistol, boltgun, carthean_sword, chainsword, death_cult_blade, eviscerator, exitus_rifle, force_rod, force_rod_2, force_rod_3, force_staff, force_staff_2, force_staff_3, force_sword, force_sword_2, force_sword_3, grav_gun, grav_pistol, greataxe, greatsword, grenade_launcher, heavy_bolter, heavy_flamer, inferno_pistol, lasgun, laspistol, longlas_rifle, melta_gun, multi_melta, needler_sniper_rifle, null_rod, omnissian_axe, plasma_cannon, plasma_gun, plasma_pistol, power_axe, power_hammer, power_sword, radium_carbine, shotgun, sniper_rifle, thunder_hammer, voltaic_axe
+ - **Substance**: "2% HP and Suppression gained per point of Focus spent"\
+Item types: belt_techadept
+ - **Superimposition**: "30.0 Construct HP gained on Hit"\
+Item types: purity_seal
  - **The Destroyer**: "40.0% chance to add a general Vulnerability when the target gets a debuff effect"\
 Item types: arc_rifle, omnissian_axe, radium_carbine, voltaic_axe
  - **Toxins**: "180.0% Damage Bonus for Poison effects"\
