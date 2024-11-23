@@ -584,6 +584,15 @@
 			<shield_percent>
 				<eng>Energy Shield Percent</eng>
 			</shield_percent>
+			<devotion_per_spell_kill>
+				<eng>Bonus Devotion per Spell Kill</eng>
+			</devotion_per_spell_kill>
+			<retinue_member_hp>
+				<eng>Bonus Retinue HP</eng>
+			</retinue_member_hp>
+			<bonus_spell_damage>
+				<eng>Spell Damage Bonus</eng>
+			</bonus_spell_damage>
 		</MainStat>
 		<Colors>
 			<Mephiston_Red>
@@ -838,6 +847,9 @@
 			<Format>
 				<eng>$RARITY$ $TYPE$</eng>
 			</Format>
+			<retinuemembergear>
+				<eng>Retinue Gear</eng>
+			</retinuemembergear>
 			<Autopistol>
 				<eng>Autopistol</eng>
 			</Autopistol>
@@ -992,6 +1004,7 @@
 			<Celestian_armor>
 					<eng>Celestian Armour</eng>
 			</Celestian_armor>
+					
 
 			<Techadept_armour>
 				<eng>Tech-adept Armour</eng>
@@ -999,6 +1012,10 @@
 			<battle_sister_armor>
 				<eng>Sororitas Armour</eng>
 			</battle_sister_armor>
+			<hierophant_armor>
+				<eng>Hierophant Armour</eng>
+			</hierophant_armor>
+			
 			<Purity_Seal>
 				<eng>Purity Seal</eng>
 			</Purity_Seal>
@@ -1026,6 +1043,10 @@
 			<belt_holy_censer>
 				<eng>Holy Relic</eng>
 			</belt_holy_censer>
+			<belt_hierophant>
+				<eng>Hierophant Belt Gear</eng>
+			</belt_hierophant>
+			
 			<Main_Implant>
 				<eng>Main Implant</eng>
 			</Main_Implant>
@@ -1038,6 +1059,9 @@
 			<Neural_Implant_skull>
 				<eng>Neural Implant</eng>
 			</Neural_Implant_skull>
+			<Main_Implant_skull>
+				<eng>Main Implant</eng>
+			</Main_Implant_skull>
 			<eye_implant_skull>
 				<eng>Eye Implant</eng>
 			</eye_implant_skull>
@@ -1120,6 +1144,47 @@
 				<eng>Polearm</eng>
 			</power_maul>
 
+			<c_blessed_blade_rod>
+				<eng>Combo Weapon</eng>
+			</c_blessed_blade_rod>
+			<c_bolt_pistol_chainsword>
+				<eng>Combo Weapon</eng>
+			</c_bolt_pistol_chainsword>
+			<c_chainsword_rod>
+				<eng>Combo Weapon</eng>
+			</c_chainsword_rod>
+			<c_inferno_pistol_chainsword>
+				<eng>Combo Weapon</eng>
+			</c_inferno_pistol_chainsword>
+			<c_plasma_pistol_blessed_blade>
+				<eng>Combo Weapon</eng>
+			</c_plasma_pistol_blessed_blade>
+			<c_plasma_pistol_brazier>
+				<eng>Combo Weapon</eng>
+			</c_plasma_pistol_brazier>
+			<c_hand_flamer_brazier>
+				<eng>Combo Weapon</eng>
+			</c_hand_flamer_brazier>
+			<c_hand_flamer_rod>
+				<eng>Combo Weapon</eng>
+			</c_hand_flamer_rod>
+			<flamer>
+				<eng>Rifle</eng>
+			</flamer>
+			<power_halberd>
+				<eng>Polearm</eng>
+			</power_halberd>
+			<power_maul>
+				<eng>Polearm</eng>
+			</power_maul>
+			
+			<dialogous_staff>
+				<eng>Hierophant Off-hand</eng>
+			</dialogous_staff>
+			<libram>
+				<eng>Hierophant Off-hand</eng>
+			</libram>
+
 			<Inoculator>
 				<eng>Inoculator</eng>
 				<desc>
@@ -1148,13 +1213,10 @@
 			<Gem>
 				<eng>Shard</eng>
 			</Gem>
-			<tarotseal_ordo>
-					<eng>Ordo Seal</eng>
-			</tarotseal_ordo>
 			<Rune>
 				<eng>Psalm-Code</eng>
 				<desc>
-					<eng>Combine Psalm-Codes into Psalm-Doctrines for powerful effects.\nDuplicate Psalm-Codes within the same item only provide their benefit once.</eng>
+					<eng>Combine Psalm-Codes into Psalm-Doctrines for powerful effects. Multiple Psalm-Codes within the same item can provide their benefit more than once unless it is stated otherwise.</eng>
 				</desc>
 			</Rune>
 			<map_shard>
@@ -1463,7 +1525,7 @@
 					<eng>Storm Shield</eng>
 				</Name>
 				<Journal>
-					<eng>In addition of providing some extra defense it also adds some much needed mobility with more CC. Good addition to any one handed weapon.</eng>
+					<eng>In addition of providing some extra defence it also adds some much needed mobility with more CC. Good addition to any one handed weapon.</eng>
 				</Journal>
 			</Storm_shield>
 			<Suppression_shield>
@@ -1471,7 +1533,7 @@
 					<eng>Suppression Shield</eng>
 				</Name>
 				<Journal>
-					<eng>In addition to providing some extra defense it also adds some extra damage with CC. Good accessory to any one handed weapon.</eng>
+					<eng>In addition to providing some extra defence it also adds some extra damage with CC. Good accessory to any one handed weapon.</eng>
 				</Journal>
 			</Suppression_shield>
 
@@ -1869,6 +1931,22 @@
 					<eng>Celestian Armour</eng>
 				</Name>
 			</Celestian_armor>
+			
+			<confessor_robe>
+				<Name>
+					<eng>Confessor Robe</eng>
+				</Name>
+			</confessor_robe>
+			<hierophant_vestment>
+				<Name>
+					<eng>Hierophant Vestment</eng>
+				</Name>
+			</hierophant_vestment>
+			<militant_apostolic_armor>
+				<Name>
+					<eng>Militant-Apostolic Armour</eng>
+				</Name>
+			</militant_apostolic_armor>
 
 			<Purity_Seal>
 				<Name>
@@ -1967,12 +2045,68 @@
 					<eng>Adds an extra Summoning Skill slot.</eng>
 				</desc>
 			</Belt_technomartyr_girdle>
+			<belt_damage_banner>
+				<Name>
+					<eng>Banner of Valor</eng>
+				</Name>
+				<desc>
+					<eng>Summons a Holy Standard.</eng>
+				</desc>
+			</belt_damage_banner>
+			<belt_fear_banner>
+				<Name>
+					<eng>Banner of Vengeance</eng>
+				</Name>
+				<desc>
+					<eng>Summons a Holy Standard.</eng>
+				</desc>
+			</belt_fear_banner>
+			<belt_chain_banner>
+				<Name>
+					<eng>Banner of Incandescence</eng>
+				</Name>
+				<desc>
+					<eng>Summons a Holy Standard.</eng>
+				</desc>
+			</belt_chain_banner>
+			<belt_penance_banner>
+				<Name>
+					<eng>Banner of Penitence</eng>
+				</Name>
+				<desc>
+					<eng>Summons a Holy Standard.</eng>
+				</desc>
+			</belt_penance_banner>
+			<belt_concentration_banner>
+				<Name>
+					<eng>Banner of Repugnance</eng>
+				</Name>
+				<desc>
+					<eng>Summons a Holy Standard.</eng>
+				</desc>
+			</belt_concentration_banner>
+			<belt_faith_banner>
+				<Name>
+					<eng>Banner of Piety</eng>
+				</Name>
+				<desc>
+					<eng>Summons a Holy Standard.</eng>
+				</desc>
+			</belt_faith_banner>
+			<belt_heal_banner>
+				<Name>
+					<eng>Banner of Benediction</eng>
+				</Name>
+				<desc>
+					<eng>Summons a Holy Standard.</eng>
+				</desc>
+			</belt_heal_banner>
 			<belt_holy_censer>
 				<Name>
 					<eng>Holy Censer</eng>
 				</Name>
 				<desc>
-					<eng>Adds an extra Act of Faith slot.</eng>
+					<eng>Adds an extra Act of Faith slot for Sisters of Battle, or an extra Blessing slot for Hierophants.</eng>
 				</desc>
 			</belt_holy_censer>
 			<belt_damage_banner>
@@ -2030,8 +2164,57 @@
 				<desc>
 					<eng>Summons a Holy Standard.</eng>
 				</desc>
-			</belt_heal_banner>
+			</belt_heal_banner>	
 
+			<belt_curio_concussion>
+				<Name>
+					<eng>Curio of Concussion</eng>
+				</Name>
+				<desc>
+					<eng>Activates an aura when equipped.</eng>
+				</desc>
+			</belt_curio_concussion>
+			<belt_curio_confounding>
+				<Name>
+					<eng>Curio of Confounding</eng>
+				</Name>
+				<desc>
+					<eng>Activates an aura when equipped.</eng>
+				</desc>
+			</belt_curio_confounding>
+			<belt_curio_defiance>
+				<Name>
+					<eng>Curio of Defiance</eng>
+				</Name>
+				<desc>
+					<eng>Activates an aura when equipped.</eng>
+				</desc>
+			</belt_curio_defiance>
+			<belt_curio_fear>
+				<Name>
+					<eng>Curio of Fear</eng>
+				</Name>
+				<desc>
+					<eng>Activates an aura when equipped.</eng>
+				</desc>
+			</belt_curio_fear>
+			<belt_curio_immolation>
+				<Name>
+					<eng>Curio of Immolation</eng>
+				</Name>
+				<desc>
+					<eng>Activates an aura when equipped.</eng>
+				</desc>
+			</belt_curio_immolation>
+			<belt_curio_stability>
+				<Name>
+					<eng>Curio of Stability</eng>
+				</Name>
+				<desc>
+					<eng>Activates an aura when equipped.</eng>
+				</desc>
+			</belt_curio_stability>
+			
 			<Main_Implant>
 				<Name>
 					<eng>Main Implant</eng>
@@ -2063,6 +2246,14 @@
 					<eng>Received during the Warhammer Skulls event.\nThis implant was specially issued to uncover information about a devious Archenemy plot, involving Skull Procurators. It needs to be equipped in order to do so.</eng>
 				</Desc>
 			</Eye_Implant_skull>
+			<main_implant_skull>
+				<Name>
+					<eng>Adaptive Bionic Implant</eng>
+				</Name>
+				<Desc>
+					<eng>Received during the Warhammer Skulls event.\nThis implant was specially issued to uncover information about a devious Archenemy plot, involving Skull Procurators. It needs to be equipped in order to do so.</eng>
+				</Desc>
+			</main_implant_skull>
 			<inoculator_skull>
 				<Name>
 					<eng>Autosanguine Inoculator</eng>
@@ -2151,7 +2342,7 @@
 					<eng>Pyrokinetic Staff</eng>
 				</Name>
 				<Journal>
-					<eng>A long range area weapon with massive supression damage that also allows the selection of three Psychic Powers.</eng>
+					<eng>A long range area weapon with massive suppression damage that also allows the selection of three Psychic Powers.</eng>
 				</Journal>
 			</Force_staff_2>
 			<Force_staff_3>
@@ -2283,6 +2474,89 @@
 					<eng>Power Halberd</eng>
 				</Name>
 			</power_halberd>
+			
+
+			<c_blessed_blade_rod>
+				<Name>
+					<eng>Blessed Blade &amp; Rod</eng>
+				</Name>
+			</c_blessed_blade_rod>
+			<c_bolt_pistol_chainsword>
+				<Name>
+					<eng>Bolt Pistol &amp; Chainsword</eng>
+				</Name>
+			</c_bolt_pistol_chainsword>
+			<c_chainsword_rod>
+				<Name>
+					<eng>Chainsword &amp; Rod</eng>
+				</Name>
+			</c_chainsword_rod>
+			<c_inferno_pistol_chainsword>
+				<Name>
+					<eng>Inferno Pistol &amp; Chainsword</eng>
+				</Name>
+			</c_inferno_pistol_chainsword>
+			<c_plasma_pistol_blessed_blade>
+				<Name>
+					<eng>Plasma Pistol &amp; Blessed Blade</eng>
+				</Name>
+			</c_plasma_pistol_blessed_blade>
+			<c_plasma_pistol_brazier>
+				<Name>
+					<eng>Plasma Pistol &amp; Brazier</eng>
+				</Name>
+			</c_plasma_pistol_brazier>
+			<c_hand_flamer_rod>
+				<Name>
+					<eng>Hand Flamer &amp; Rod</eng>
+				</Name>
+			</c_hand_flamer_rod>
+			<c_hand_flamer_brazier>
+				<Name>
+					<eng>Hand Flamer &amp; Brazier</eng>
+				</Name>
+			</c_hand_flamer_brazier>
+			<flamer>
+				<Name>
+					<eng>Flamer</eng>
+				</Name>
+			</flamer>
+			<power_maul>
+				<Name>
+					<eng>Power Maul</eng>
+				</Name>
+			</power_maul>
+			<power_halberd>
+				<Name>
+					<eng>Power Halberd</eng>
+				</Name>
+			</power_halberd>
+			
+			<dialogous_staff>
+				<Name>
+					<eng>Dialogous Staff</eng>
+				</Name>
+			</dialogous_staff>
+			<libram_01>
+				<Name>
+					<eng>Libram</eng>
+				</Name>
+			</libram_01>
+			<RM_power_sword>
+				<Name>
+					<eng>Power Sword &amp; Suppression Shield</eng>
+				</Name>
+			</RM_power_sword>
+			<RM_force_rod>
+				<Name>
+					<eng>Dual Force Rods</eng>
+				</Name>
+			</RM_force_rod>
+			<RM_force_rod_2>
+				<Name>
+					<eng>Warp Rod &amp; Biomantic Sword</eng>
+				</Name>
+			</RM_force_rod_2>
 			
 
 			<Wardrug_Basic>
@@ -2468,7 +2742,7 @@
 			</s3_psyker_weapon2>
 			<s3_techadept_armor>
 				<Name>
-					<eng>Static-Flux Armor</eng>
+					<eng>Static-Flux Armour</eng>
 				</Name>
 			</s3_techadept_armor>
 			<s3_techadept_weapon>
@@ -2716,7 +2990,53 @@
 				<Name>
 					<eng>Bounty of the Penitent</eng>
 				</Name>
-			</S6_Inoculator>			
+			</S6_Inoculator>
+			<Seal_Inferno>
+				<Name>
+					<eng>Smouldering Seal</eng>
+				</Name>
+			</Seal_Inferno>
+			<Seal_Warp>
+				<Name>
+					<eng>Warpbound Seal</eng>
+				</Name>
+			</Seal_Warp>
+			<Seal_Toxic>
+				<Name>
+					<eng>Noxious Seal</eng>
+				</Name>
+			</Seal_Toxic>
+			<S7_Seal_Heat_OFF>
+				<Name>
+					<eng>Seal of the Raging Inferno</eng>
+				</Name>
+			</S7_Seal_Heat_OFF>
+			<S7_Seal_Heat_DEF>
+				<Name>
+					<eng>Seal of Engulfing Flames</eng>
+				</Name>
+			</S7_Seal_Heat_DEF>
+			<S7_Seal_Warp_OFF>
+				<Name>
+					<eng>Seal of the Warpsmith</eng>
+				</Name>
+			</S7_Seal_Warp_OFF>
+			<S7_Seal_Warp_DEF>
+				<Name>
+					<eng>Seal of the Dark Maw</eng>
+				</Name>
+			</S7_Seal_Warp_DEF>
+			<S7_Seal_Poison_OFF>
+				<Name>
+					<eng>Seal of Noxious Malediction</eng>
+				</Name>
+			</S7_Seal_Poison_OFF>
+			<S7_Seal_Poison_DEF>
+				<Name>
+					<eng>Seal of Toxic Mist</eng>
+				</Name>
+			</S7_Seal_Poison_DEF>		
+			
 			<enchant_locker_relicS6>
 				<Name>
 					<eng>Enchantment Clamp (Relic)</eng>
@@ -2746,6 +3066,11 @@
 					<eng>Harbinger Badge</eng>
 				</Name>
 			</S6_currency>
+			<S7_currency>
+				<Name>
+					<eng>Sliver of Malediction</eng>
+				</Name>
+			</S7_currency>
 			<Normal_Zacsi>
 				<Name>
 					<eng>Confiscated Items (Normal)</eng>
@@ -3369,6 +3694,14 @@
 					<eng>+100% Experience for the next mission.</eng>
 				</desc>
 			</Consumable_xpbonus>
+			<Consumable_s7>
+				<Name>
+					<eng>Ultimate Malediction</eng>
+				</Name>
+				<desc>
+					<eng>Adds 1000 points to the Seasonal Mission counter.</eng>
+				</desc>
+			</Consumable_s7>
 			<gem1_1>
 				<Name>
 					<eng>Corpus Shard</eng>
@@ -3719,6 +4052,31 @@
 					<eng>Escalation Shard V</eng>
 				</Name>
 			</gem_s6_5>
+			<gem_s7_1>
+				<Name>
+					<eng>Malediction Shard</eng>
+				</Name>
+			</gem_s7_1>
+			<gem_s7_2>
+				<Name>
+					<eng>Malediction Shard II</eng>
+				</Name>
+			</gem_s7_2>
+			<gem_s7_3>
+				<Name>
+					<eng>Malediction Shard III</eng>
+				</Name>
+			</gem_s7_3>
+			<gem_s7_4>
+				<Name>
+					<eng>Malediction Shard IV</eng>
+				</Name>
+			</gem_s7_4>
+			<gem_s7_5>
+				<Name>
+					<eng>Malediction Shard V</eng>
+				</Name>
+			</gem_s7_5>
 			<Rune1>
 				<Name>
 					<eng>Hermeticon Psalm</eng>
@@ -4010,7 +4368,7 @@
 					<eng>Alpha Turret</eng>
 				</Name>
 				<desc>
-					<eng>Defense oriented module for the Necromechanic turret. Rapidly heals a single allied unit in a 20 metres radius.</eng>
+					<eng>Defence oriented module for the Necromechanic turret. Rapidly heals a single allied unit in a 20 metres radius.</eng>
 				</desc>
 			</techadeptsummon_necromechanic_turret_alpha_item>
 			<techadeptsummon_necromechanic_turret_gamma_item>
@@ -4018,7 +4376,7 @@
 					<eng>Gamma Turret</eng>
 				</Name>
 				<desc>
-					<eng>Defense oriented module for the Necromechanic turret. It gives Supreme Damage Reduction and Supreme All Resistance to all allied units in an Aura.</eng>
+					<eng>Defence oriented module for the Necromechanic turret. It gives Supreme Damage Reduction and Supreme All Resistance to all allied units in an Aura.</eng>
 				</desc>
 			</techadeptsummon_necromechanic_turret_gamma_item>
 			<techadeptsummon_necromechanic_turret_voltageist_item>
@@ -4349,6 +4707,30 @@
 					<eng>Contains two guaranteed Archeotech Relics, and a guaranteed Seasonal item along with the contents of the previous Stash. Has a chance to contain Ancient, and bonus Seasonal items.</eng>
 				</Desc>
 			</shop_season_6_3_zacsi>
+			<shop_season_7_heat_zacsi>
+				<name>
+					<eng>Smouldering Stash of Malediction</eng>
+				</name>
+				<Desc>
+					<eng>Contains one of the two Heat Damage related Purity Seals along with additional loot.</eng>
+				</Desc>
+			</shop_season_7_heat_zacsi>
+			<shop_season_7_warp_zacsi>
+				<name>
+					<eng>Warpbound Stash of Malediction</eng>
+				</name>
+				<Desc>
+					<eng>Contains one of the two Warp Damage related Purity Seals along with additional loot.</eng>
+				</Desc>
+			</shop_season_7_warp_zacsi>
+			<shop_season_7_Poison_zacsi>
+				<name>
+					<eng>Noxious Stash of Malediction</eng>
+				</name>
+				<Desc>
+					<eng>Contains one of the two Poison Damage related Purity Seals along with additional loot.</eng>
+				</Desc>
+			</shop_season_7_Poison_zacsi>
 			<s6_void_key>
 				<name>
 					<eng>Void Key of Escalation</eng>
@@ -4365,6 +4747,14 @@
 					<eng>Used to open Escalation Caches.</eng>
 				</Desc>
 			</s6_key>
+			<s7_void_key>
+				<name>
+					<eng>Void Key of Malediction</eng>
+				</name>
+				<Desc>
+					<eng>Used to open Void Crusade Chests. Only one Key of Malediction can be carried at a time.</eng>
+				</Desc>
+			</s7_void_key>
 
 			<construct_material>
 				<name>
@@ -4415,6 +4805,38 @@
 					<eng>Reward for completing Wave 10 in the Unholy Cathedral mission with time remaining (contents improve with each 30 seconds remaining).</eng>
 				</desc>
 			</UnholyRewardExtra_Zacsi>
+			<Retinue_Unlock_Assassin_zacsi>
+				<Name>
+					<eng>Retinue Supplies: Assassin</eng>
+				</Name>
+				<desc>
+					<eng>Contains an assortment of Retinue Gear for the Assassin.</eng>
+				</desc>
+			</Retinue_Unlock_Assassin_zacsi>
+			<Retinue_Unlock_Crusader_zacsi>
+				<Name>
+					<eng>Retinue Supplies: Crusader</eng>
+				</Name>
+				<desc>
+					<eng>Contains an assortment of Retinue Gear for the Crusader.</eng>
+				</desc>
+			</Retinue_Unlock_Crusader_zacsi>
+			<Retinue_Unlock_Psyker_zacsi>
+				<Name>
+					<eng>Retinue Supplies: Psyker</eng>
+				</Name>
+				<desc>
+					<eng>Contains an assortment of Retinue Gear for the Psyker.</eng>
+				</desc>
+			</Retinue_Unlock_Psyker_zacsi>
+			<Retinue_Unlock_BattleSister_zacsi>
+				<Name>
+					<eng>Retinue Supplies: Battle Sister</eng>
+				</Name>
+				<desc>
+					<eng>Contains an assortment of Retinue Gear for the Battle Sister.</eng>
+				</desc>
+			</Retinue_Unlock_BattleSister_zacsi>
 		</Items>
 		<Enchantment>
 			<critical_hit_chance>
@@ -4814,12 +5236,12 @@
 			</hp_per_kill>
 			<melee_damage_reduce>
 				<desc>
-					<eng>Melee damage reduced by {damage_reduce}</eng>
+					<eng>Melee damage reduced by {damage_reduce}[ff2bede6]%[/ff2bede6]</eng>
 				</desc>
 			</melee_damage_reduce>
 			<ranged_damage_reduce>
 				<desc>
-					<eng>Ranged damage reduced by {damage_reduce}</eng>
+					<eng>Ranged damage reduced by {damage_reduce}[ff2bede6]%[/ff2bede6]</eng>
 				</desc>
 			</ranged_damage_reduce>
 			<inoculator_heal_percent>
@@ -4884,7 +5306,7 @@
 			</accurate_shooting>
 			<suffered_slow_stun_duration>
 				<desc>
-					<eng>{crowd_control_time_resist,100} duration for [ff2bede6]Slow[/ff2bede6] and Stun taken</eng>
+					<eng>{crowd_control_time_resist,100} duration for [ff2bede6]Slow[/ff2bede6] and [ff2bede6]Stun[/ff2bede6] taken</eng>
 				</desc>
 			</suffered_slow_stun_duration>
 			<slow_shock_efficiency>
@@ -5161,6 +5583,11 @@
 					<eng>{vulnerability_efficiency,100} [ff2bede6]Vulnerability[/ff2bede6] effectiveness</eng>
 				</desc>
 			</Vulnerability_efficiency_bonus>
+			<Vulnerability_efficiency_bonus_rune15>
+				<desc>
+					<eng>{vulnerability_efficiency,100} [ff2bede6]Vulnerability[/ff2bede6] effectiveness (does not stack within a single item)</eng>
+				</desc>
+			</Vulnerability_efficiency_bonus_rune15>
 			<Damage_after_deflect>
 				<desc>
 					<eng>{artifact_enchant,100} Damage Bonus to the next attack on {deflect}</eng>
@@ -5557,7 +5984,7 @@
 			</Rune_23>
 			<Rune_24>
 				<desc>
-					<eng>[ff2bede6]+10[/ff2bede6] Energy Shield gained on hit</eng>
+					<eng>{shield_hp_per_hit_percent}[ff2bede6]%[/ff2bede6] Shield Drain</eng>
 				</desc>
 			</Rune_24>
 			<Rune_25>
@@ -5582,7 +6009,7 @@
 			</Runeword_3_5>
 			<Runeword_3_6>
 				<desc>
-					<eng>{artifact_enchant,100} Damage taken to Energy Shield is Reflected to Melee attackers as Warp</eng>
+					<eng>{artifact_enchant,100} Damage taken to Energy Shield is Reflected to Melee attackers as Warp (Affects [ff3187A2]Retinue Members[/ff3187A2])</eng>
 				</desc>
 				<desc_techadept>
 					<eng>{artifact_enchant,100} Damage taken to Energy Shield is Reflected to Melee attackers as Warp.\nAffects [ff00a1ff]Constructs[/ff00a1ff].</eng>
@@ -5592,9 +6019,9 @@
 				<desc>
 					<eng>{dot_damage,100} Bleeding Damage against enemies in 8 metres radius</eng>
 				</desc>
-				<desc>
+				<desc_techadept>
 					<eng>{dot_damage,100} Bleeding DoT Damage against enemies in 8 metres radius\nAffects [ff00a1ff]Constructs[/ff00a1ff].</eng>
-				</desc>
+				</desc_techadept>
 			</Runeword_3_7>
 			<Runeword_3_8>
 				<desc>
@@ -5623,7 +6050,7 @@
 			</Runeword_3_12>
 			<Runeword_3_13>
 				<desc>
-					<eng>{heat_damage,100} Heat Damage Bonus</eng>
+					<eng>{heat_damage,100} Heat Damage Bonus (Affects [ff3187A2]Retinue Members[/ff3187A2]).</eng>
 				</desc>
 				<desc_techadept>
 					<eng>{heat_damage,100} Heat Damage Bonus\nAffects [ff00a1ff]Constructs[/ff00a1ff]</eng>
@@ -5631,7 +6058,7 @@
 			</Runeword_3_13>
 			<Runeword_3_14>
 				<desc>
-					<eng>{physical_damage,100} Physical Damage Bonus</eng>
+					<eng>{physical_damage,100} Physical Damage Bonus (Affects [ff3187A2]Retinue Members[/ff3187A2])</eng>
 				</desc>
 				<desc_techadept>
 					<eng>{physical_damage,100} Physical Damage Bonus\n Affects [ff00a1ff]Constructs[/ff00a1ff]</eng>
@@ -5639,7 +6066,7 @@
 			</Runeword_3_14>
 			<Runeword_3_15>
 				<desc>
-					<eng>{warp_damage,100} Warp Damage Bonus</eng>
+					<eng>{warp_damage,100} Warp Damage Bonus (Affects [ff3187A2]Retinue Members[/ff3187A2] and [ff00a1ff]Constructs[/ff00a1ff])</eng>
 				</desc>
 			</Runeword_3_15>
 			<Runeword_3_16>
@@ -5653,7 +6080,7 @@
 
 			<Runeword_4_1>
 				<desc>
-					<eng>{heat_damage,100} Heat Damage Bonus</eng>
+					<eng>{heat_damage,100} Heat Damage Bonus (Affects [ff3187A2]Retinue Members[/ff3187A2])</eng>
 				</desc>
 				<desc_techadept>
 					<eng>{heat_damage,100} Heat Damage Bonus\nAffects [ff00a1ff]Constructs[/ff00a1ff]</eng>
@@ -5661,7 +6088,7 @@
 			</Runeword_4_1>
 			<Runeword_4_2>
 				<desc>
-					<eng>{physical_damage,100} Physical Damage Bonus</eng>
+					<eng>{physical_damage,100} Physical Damage Bonus (Affects [ff3187A2]Retinue Members[/ff3187A2])</eng>
 				</desc>
 				<desc_techadept>
 					<eng>{physical_damage,100} Physical Damage Bonus\n Affects [ff00a1ff]Constructs[/ff00a1ff]</eng>
@@ -5719,7 +6146,7 @@
 			</Runeword_4_13>
 			<Runeword_4_14>
 				<desc>
-					<eng>{damage,100} Damage Bonus to Constructs </eng>
+					<eng>{damage,100} Damage Bonus to Constructs and [ff3187A2]Retinue Members[/ff3187A2]</eng>
 				</desc>
 			</Runeword_4_14>
 			<Runeword_4_15>
@@ -6799,7 +7226,7 @@
 			</Demonic_Weapon_Damage_on_Kill>
 			<Demonic_Weapon_Slow_on_Kill>
 				<desc>
-					<eng>Chance to cause an [fffffdcb]Slow[/fffffdcb] effect in a small area based on enemy type on Kill</eng>
+					<eng>Chance to cause a [fffffdcb]Slow[/fffffdcb] effect in a small area based on enemy type on Kill</eng>
 				</desc>
 			</Demonic_Weapon_Slow_on_Kill>
 
@@ -7460,46 +7887,6 @@
 					<eng>{damage} Damage Bonus for the Self-destruct Skill for [ff00a1ff]Kastelan Robots[/ff00a1ff]</eng>
 				</desc>
 			</Minion_Damage_on_Death_Explosion_Kastelan>
-			<Minion_Damage_against_Afraid>
-				<desc>
-					<eng>{per_target_damage_bonus,100} Damage Bonus for [ff00a1ff]Constructs[/ff00a1ff] against [ff2bede6]Feared[/ff2bede6] enemies</eng>
-				</desc>
-			</Minion_Damage_against_Afraid>
-			<Minion_Damage_against_Bleeding>
-				<desc>
-					<eng>{per_target_damage_bonus,100} Damage Bonus for [ff00a1ff]Constructs[/ff00a1ff] against [ff2bede6]Bleeding[/ff2bede6] enemies</eng>
-				</desc>
-			</Minion_Damage_against_Bleeding>
-			<Minion_Damage_against_Burning>
-				<desc>
-					<eng>{per_target_damage_bonus,100} Damage Bonus for [ff00a1ff]Constructs[/ff00a1ff] against [ff2bede6]Burning[/ff2bede6] enemies</eng>
-				</desc>
-			</Minion_Damage_against_Burning>
-			<Minion_Damage_against_Medium>
-				<desc>
-					<eng>{per_target_damage_bonus,100} Damage Bonus for [ff00a1ff]Constructs[/ff00a1ff] against [ff2bede6]Champion[/ff2bede6] enemies</eng>
-				</desc>
-			</Minion_Damage_against_Medium>
-			<Minion_Damage_against_Normal>
-				<desc>
-					<eng>{per_target_damage_bonus,100} Damage Bonus for [ff00a1ff]Constructs[/ff00a1ff] against [ff2bede6]Regular[/ff2bede6] enemies</eng>
-				</desc>
-			</Minion_Damage_against_Normal>
-			<Minion_Damage_against_Poisoned>
-				<desc>
-					<eng>{per_target_damage_bonus,100} Damage Bonus for [ff00a1ff]Constructs[/ff00a1ff] against [ff2bede6]Poisoned[/ff2bede6] enemies</eng>
-				</desc>
-			</Minion_Damage_against_Poisoned>
-			<Minion_Damage_against_Shocked_Slowed>
-				<desc>
-					<eng>{per_target_damage_bonus,100} Damage Bonus for [ff00A1FF]Constructs[/ff00A1FF] against [ff2bede6]Shocked, Slowed[/ff2bede6] enemies</eng>
-				</desc>
-			</Minion_Damage_against_Shocked_Slowed>
-			<Minion_Damage_against_Stunned>
-				<desc>
-					<eng>{per_target_damage_bonus,100} Damage Bonus for [ff00a1ff]Constructs[/ff00a1ff] against [ff2bede6]Stunned[/ff2bede6] enemies</eng>
-				</desc>
-			</Minion_Damage_against_Stunned>
 			<TA_ranged_damage_percent>
 				<desc>
 					<eng>{damage,100} Ranged Damage Bonus for [ff00a1ff]Constructs[/ff00a1ff]</eng>
@@ -7633,7 +8020,7 @@
 			</Spawn_orb_on_Medium_Kill>
 			<Godlike_Chance_to_gain_Inoculator_on_kill>
 				<desc>
-					<eng>{artifact_enchant,100} chance on kill to gain an [ff2bede6]Inoculator Charge[/ff2bede6]</eng>
+					<eng>{medkit_gain_per_kill_chance,100} chance on kill to gain an [ff2bede6]Inoculator Charge[/ff2bede6]</eng>
 				</desc>
 			</Godlike_Chance_to_gain_Inoculator_on_kill>
 			<Godlike_Damage_buff_to_next_spell_on_personal_teleporter_use>
@@ -8004,6 +8391,23 @@
 					<eng>{artifact_enchant,100} chance to gain [ff2bede6]5%[/ff2bede6] Class Resource on Hit. This effect can only happen once every 3 seconds.</eng>
 				</desc>
 			</Gem_s6_class_resource_on_hit>
+			
+			<Gem_s7_poison_on_struck>
+				<desc>
+					<eng>{artifact_enchant,100} chance to apply [fffffdcb]Poison[/fffffdcb] when struck</eng>
+				</desc>
+			</Gem_s7_poison_on_struck>
+			<Gem_s7_burn_on_hit>
+				<desc>
+					<eng>{artifact_enchant,100} chance to apply [fffffdcb]Burn[/fffffdcb] on hit</eng>
+				</desc>
+			</Gem_s7_burn_on_hit>
+			<Gem_s7_warp_vulnerability_on_hit>
+				<desc>
+					<eng>{artifact_enchant,100} chance to apply [fffffdcb]Warp Vulnerability[/fffffdcb] on hit</eng>
+				</desc>
+			</Gem_s7_warp_vulnerability_on_hit>
+			
 			<Godlike_Aura_damage_per_vulnerability>
 				<desc>
 					<eng>Gain an aura that deals [ff2bede6]10%[/ff2bede6] Warp Damage around you per stack. Stacks up to 5 after each [ff2bede6]Vulnerability[/ff2bede6] inflicted</eng>
@@ -8127,7 +8531,7 @@
 			</Offering_effectiveness>	
 			<Crit_damage_for_combo_weapons>
 				<desc>
-					<eng>{critical_damage_bonus,100} Critical Hit Damage when using Combo Weapons</eng>
+					<eng>{critical_damage_bonus,100} Critical Damage when using Combo Weapons</eng>
 				</desc>
 			</Crit_damage_for_combo_weapons>
 			<Angelic_form_damage_increased_faith_costs>
@@ -8159,7 +8563,129 @@
 				<desc>
 					<eng>Upon entering [ffd9b345]Embodied Saint[/ffd9b345] Form, you release a Nova that deals [ff2bede6]500%[/ff2bede6] Weapon Damage and Blinds enemies in a [ff2bede6]15m[/ff2bede6] Radius</eng>
 				</desc>
-			</Nova_on_entering_angelic_form>			
+			</Nova_on_entering_angelic_form>
+
+			<S7_heat_resist_penalty>
+				<desc>
+					<eng>{heat_resist_negative,szazalekjel} Heat Resistance</eng>
+				</desc>
+			</S7_heat_resist_penalty>
+			<S7_warp_resist_penalty>
+				<desc>
+					<eng>{warp_resist_negative,szazalekjel} Warp Resistance</eng>
+				</desc>
+			</S7_warp_resist_penalty>
+			<S7_heat_resist_bonus>
+				<desc>
+					<eng>{heat_resist_hardcap,szazalekjel} Supreme Heat Resistance</eng>
+				</desc>
+			</S7_heat_resist_bonus>
+			<S7_warp_resist_bonus>
+				<desc>
+					<eng>{warp_resist_hardcap,szazalekjel} Supreme Warp Resistance</eng>
+				</desc>
+			</S7_warp_resist_bonus>
+			<S7_phys_resist_bonus>
+				<desc>
+					<eng>{physical_resist_hardcap,szazalekjel} Supreme Physical Resistance</eng>
+				</desc>
+			</S7_phys_resist_bonus>
+			<S7_damage_reduce_penalty>
+				<desc>
+					<eng>{damage_reduce_negative,szazalekjel} Damage Reduction</eng>
+				</desc>
+			</S7_damage_reduce_penalty>
+			<S7_suppression_resist_penalty>
+				<desc>
+					<eng>{suppression_resist_max,100} Suppression</eng>
+				</desc>
+			</S7_suppression_resist_penalty>			
+			<S7_damage_penalty_against_heat_cursed>
+				<desc>
+					<eng>{per_target_damage_bonus,100} Damage against [fff99031]Smouldering[/fff99031] enemies</eng>
+				</desc>
+			</S7_damage_penalty_against_heat_cursed>
+			<S7_damage_penalty_against_Warp_cursed>
+				<desc>
+					<eng>{per_target_damage_bonus,100} Damage against [ffc667fc]Warpbound[/ffc667fc] enemies</eng>
+				</desc>
+			</S7_damage_penalty_against_Warp_cursed>
+			<S7_damage_penalty_against_poison_cursed>
+				<desc>
+					<eng>{per_target_damage_bonus,100} Damage against [ff39e822]Noxious[/ff39e822] enemies</eng>
+				</desc>
+			</S7_damage_penalty_against_poison_cursed>
+			<S7_damage_bonus_against_Heat_cursed>
+				<desc>
+					<eng>{artifact_enchant,100} Damage against [fff99031]Smouldering[/fff99031] enemies, {artifact_enchant,100} [ffc667fc]Warp[/ffc667fc] Damage Bonus</eng>
+				</desc>
+			</S7_damage_bonus_against_Heat_cursed>
+			<S7_damage_bonus_against_Warp_cursed>
+				<desc>
+					<eng>{artifact_enchant,100} Damage against [ffc667fc]Warpbound[/ffc667fc] enemies, {artifact_enchant,100} [fff99031]Heat[/fff99031] Damage Bonus</eng>
+				</desc>
+			</S7_damage_bonus_against_Warp_cursed>	
+			<S7_damage_bonus_against_Poison_cursed>
+				<desc>
+					<eng>{artifact_enchant,100} Damage against [ff39e822]Noxious[/ff39e822] enemies, {artifact_enchant,100} [ff39e822]Poison DoT[/ff39e822] Damage Bonus</eng>
+				</desc>
+			</S7_damage_bonus_against_Poison_cursed>	
+			
+			<Hierophant_curio_radius_flat>
+				<desc>
+					<eng>{area_extent_bonus_flat} [ff2bede6]m[/ff2bede6] increased Radius for Hierophant Curios</eng>
+				</desc>
+			</Hierophant_curio_radius_flat>	
+			<Hierophant_blessing_duration>
+				<desc>
+					<eng>{skill_duration} [ff2bede6]s[/ff2bede6] increased Duration for Hierophant Blessings</eng>
+				</desc>
+			</Hierophant_blessing_duration>	
+			<Hierophant_devotion_per_kill>
+				<desc>
+					<eng>{devotion_per_kill} Extra Devotion gained per kill</eng>
+				</desc>
+			</Hierophant_devotion_per_kill>
+			<Hierophant_devotion_per_retinue_kill>
+				<desc>
+					<eng>{devotion_per_retinue_kill} Extra Devotion gained per [ff3187A2]Retinue Member[/ff3187A2] kill</eng>
+				</desc>
+			</Hierophant_devotion_per_retinue_kill>	
+			<Hierophant_crit_chance_on_curio_activation>
+				<desc>
+					<eng>{artifact_enchant,100} increased Critical Hit Chance after using a Curio</eng>
+				</desc>
+			</Hierophant_crit_chance_on_curio_activation>
+			<Hierophant_hallucination_on_spell_hit>
+				<desc>
+					<eng>Hierophant Spells apply [fffffdcb]Hallucination[/fffffdcb]</eng>
+				</desc>
+			</Hierophant_hallucination_on_spell_hit>
+			<Hierophant_heal_retinue_on_spell_cast>
+				<desc>
+					<eng>Spell Casts Heal [ff3187A2]Retinue Members[/ff3187A2] for {artifact_enchant,100} of their Health. [ff2bede6]10[/ff2bede6] second Cooldown.</eng>
+				</desc>
+			</Hierophant_heal_retinue_on_spell_cast>
+			<Hierophant_devotion_gain_bonus_in_exposed>
+				<desc>
+					<eng>{mana_gain_bonus,100} increased Devotion gained in [fffffdcb]Exposed[/fffffdcb] State</eng>
+				</desc>
+			</Hierophant_devotion_gain_bonus_in_exposed>
+			<Hierophant_ability_all>
+				<desc>
+					<eng>{ability_all} to all Attributes</eng>
+				</desc>
+			</Hierophant_ability_all>
+			<Hierophant_dot_immune_at_high_reserve>
+				<desc>
+					<eng>Gain immunity to Damage over Time effects while you have at least [ff2bede6]600[/ff2bede6] Devotion reserved</eng>
+				</desc>
+			</Hierophant_dot_immune_at_high_reserve>
+			<Hierophant_retinue_inherits_damage_reflect_chance>
+				<desc>
+					<eng>[ff3187A2]Retinue Members[/ff3187A2] inherit your Reflect Chance</eng>
+				</desc>
+			</Hierophant_retinue_inherits_damage_reflect_chance>			
 		</Enchantment>
 		
 		<unlocks>
